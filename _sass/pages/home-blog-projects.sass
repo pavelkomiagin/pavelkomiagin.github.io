@@ -4,7 +4,7 @@
     margin-top: 125px
 
     > .list
-        border-top: 1px solid $epsilon
+        border-top: 1px solid $gama
         margin-top: 30px
         padding-top: 40px
         position: relative
@@ -14,7 +14,7 @@
             content: " "
             width: 7px
             height: 7px
-            border: $epsilon 1px solid
+            border: $gama 1px solid
             position: absolute
             top: -5px
             left: 50%
@@ -38,13 +38,14 @@
         text-decoration: none
 
     > .item > .url > .title
+        color: #3F51B5
         margin: 0
         width: 75%
         font-weight: 500
         transition: all ease-in-out .2s
 
     > .item:hover > .url > .title
-        color: $delta
+        color: #E65100
 
     // maybe we can't nest html5 elements
     // can you help me?
@@ -61,6 +62,9 @@
 
     .item:hover .url aside
         color: $alpha
+
+.blog > .list > .item > .url
+    padding: 20px 0 10px
 
 .projects > .list > .item > .url
     > .title
