@@ -14,26 +14,33 @@ layout: page
 <h2 class="text-center">Skills</h2>
 
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
+	<li>HTML and templating (Slim, Haml, Erb, Handlebars)</li>
+	<li>Responsive web pages (media queries)</li>
+	<li>CSS3 (animations and transitions, flexbox)</li>
+	<li>Native CSS and preprocessors (SASS, Less)</li>
+	<li>Bootstrap</li>
+	<li>Native JavaScript</li>
+	<li>CoffeeScript</li>
+	<li>JS libs (jQuery, underscore, lodash and so on)</li>
+	<li>ES2015</li>
+	<li>Backbonejs (+ Marionettejs)</li>
+	<li>ReactJS (+ Reflux, Redux)</li>
+	<li>Webpack</li>
 	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
+	<li>Strong Git</li>
 	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+	<li>SQL and noSQL databases</li>
+	<li>Agile (Scrum)</li>
+	<li>Video streaming</li>
+	<li>SCORM packages</li>
+	<li>Continuous Integration</li>
 </ul>
 
 <h2 class="text-center">Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="https://github.com/pavelkomiagin/Backbone.cachedFetch">Backbone.cachedFetch</a></li>
+	<li><a href="https://github.com/pavelkomiagin/simple-bash-menu">Simple bash menu</a></li>
+	<li><a href="https://github.com/pavelkomiagin/romanizer-js">JavaScript Romanizer</a></li>
+	<li><a href="https://www.assetstore.unity3d.com/en/#!/content/66403">Asset "Wheel of Fortune (also known as Gacha)" for Unity3D</a></li>
 </ul>

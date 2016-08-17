@@ -9,7 +9,7 @@
             display: inline-block
 
         > .item > .link
-            color: #3F51B5
+            color: $delta
             display: inline-block
             font-weight: 400
             font-size: 2rem
@@ -24,11 +24,28 @@
     top: 0
 
     > .list
-        padding: 0 13px 0
+        padding: 10px 13px 0
+
+        > .item
+            &:before,
+            &:after
+                display: block
+                margin: 0 auto
+                content: ''
+                width: 0
+                height: 2px
+                background-color: $delta
+                transition: all .1s ease-in-out
+
+            &:hover
+                &:before,
+                &:after
+                    background-color: $alpha
+                    width: 100%
 
         > .item > .link
             font-size: 2rem
-            padding: 20px 10px
+            padding: 7px 15px
 
 .nav-home
     margin-top: 40px
@@ -37,13 +54,31 @@
     > .list
         padding: 0
 
+        > .item
+            &:before,
+            &:after
+                display: block
+                margin: 0 auto
+                content: ''
+                width: 0
+                height: 2px
+                background-color: $delta
+                transition: all .1s ease-in-out
+
+            &:hover
+                &:before,
+                &:after
+                    background-color: $alpha
+                    width: 100%
+
         > .item > .link
             font-size: 2rem
             padding: 7px 15px
             margin: 0
             border-radius: 4%
-            transition: all .4s ease-in-out
+            transition: all .1s ease-in-out
             width: 70px
 
             &:hover
                 color: $alpha
+
