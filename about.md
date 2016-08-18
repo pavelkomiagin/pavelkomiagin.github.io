@@ -34,6 +34,8 @@ layout: page
 	<li>Video streaming</li>
 	<li>SCORM packages</li>
 	<li>Continuous Integration</li>
+	<li>Unity3D</li>
+	<li>Gamedev</li>
 </ul>
 
 <h2 class="text-center">Projects</h2>

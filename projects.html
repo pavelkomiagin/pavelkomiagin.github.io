@@ -3,14 +3,60 @@ layout: page
 title: Projects
 ---
 <section class="list">
-    {% for post in site.posts %}
-        {% if post.projects %}
-            <div class="item {% if post.star %}star{% endif %}">
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
-                </a>
-            </div>
-        {% endif %}
-    {% endfor %}
+    <!--{% for post in site.posts %}-->
+        <!--{% if post.projects %}-->
+            <!--<div class="item {% if post.star %}star{% endif %}">-->
+                <!--<a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">-->
+                    <!--<aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>-->
+                    <!--{{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>-->
+                <!--</a>-->
+            <!--</div>-->
+        <!--{% endif %}-->
+    <!--{% endfor %}-->
+    <div class="item">
+        <a class="url" href="https://github.com/pavelkomiagin/Backbone.cachedFetch">Backbone.cachedFetch</a>
+        <p>Small and simple plugin for Backbone javascript framework to fetch Model or Collection and cache it in the LocalStorage</p>
+    </div>
+    <hr />
+    <div class="item">
+        <a class="url" href="https://github.com/pavelkomiagin/simple-bash-menu">Simple bash menu</a>
+        <p>Easy to use and extend console menu for rails tasks (or something else)</p>
+    </div>
+    <hr />
+    <div class="item">
+        <a class="url" href="https://github.com/pavelkomiagin/romanizer-js">JavaScript Romanizer</a>
+        <p>Arabic-Roman numerals converter</p>
+    </div>
+    <hr />
+    <div class="item">
+        <a class="url" href="https://www.assetstore.unity3d.com/en/#!/content/66403">Asset "Wheel of Fortune (also known as Gacha)" for Unity3D</a>
+        <p>Wheel of Fortune will make your game more interesting! Players can turn the wheel and get a reward.<br> Features: </p>
+
+        <ul>
+            <li>Easy reskin - just change the images by your own</li>
+            <li>Mobile ready</li>
+            <li>Easy setup of the cost and rewards</li>
+            <li>Well commented code - just include the script and use it!</li>
+        </ul>
+    </div>
+    <hr />
+    <div class="item">
+        <a class="url" href="https://play.google.com/store/apps/details?id=com.crazygiraffestudio.colorlines">Casual android game "Sweet Path" (Unity3D)</a>
+        <p>Candies are waiting for you in the new exciting game Sweet Path! Create the horizontal, vertical or diagonal lines
+            with 4 and more candies of the same color to destroy them! Every level has unique set of special candies!
+            Our game combines the classic Color Lines game and the best features from popular match-3 games! Play today
+            and take your own Sweet Path!
+
+            Sweet Path features:
+        </p>
+
+        <ul>
+            <li>Exciting gameplay with 5 colors and 6 types of candies: Regular, Multicolored, Horizontal Destroyer, Vertical Destroyer, Frozen Candy, MultiLife Candy</li>
+            <li>Amazing boosters help to clear game field and get more scores!</li>
+            <li>Turn the wheel of fortune and win amazing bonuses!</li>
+            <li>Fun and easy to play, yet challenging to master</li>
+            <li>Excellent graphics and animations</li>
+            <li>Unlimited levels</li>
+        </ul>
+    </div>
 </section>
