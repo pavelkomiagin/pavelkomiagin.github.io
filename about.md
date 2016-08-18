@@ -43,4 +43,5 @@ layout: page
 	<li><a href="https://github.com/pavelkomiagin/simple-bash-menu">Simple bash menu</a></li>
 	<li><a href="https://github.com/pavelkomiagin/romanizer-js">JavaScript Romanizer</a></li>
 	<li><a href="https://www.assetstore.unity3d.com/en/#!/content/66403">Asset "Wheel of Fortune (also known as Gacha)" for Unity3D</a></li>
+	<li><a href="https://play.google.com/store/apps/details?id=com.crazygiraffestudio.colorlines">Casual android game "Sweet Path"</a></li>
 </ul>
