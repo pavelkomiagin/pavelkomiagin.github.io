@@ -13,13 +13,12 @@ description: How to shuffle a JavaScript array
 
 Every programmer can face the challenge of array shuffling. Of course sometimes 
 it is possible to use a library (e.g. [underscore](http://underscorejs.org/#shuffle)).
-But it is useful to have the snippets for this task.
+But it is useful also to have the snippets for this task.
 
 #### Shuffle that modify a given array:
 
-Array isn't a primitive so Arrays are passed by reference. It means that 
-if we pass an array as parameter to function and modify this array inside 
-this function then this array will be changed.
+Array isn't a primitive so Arrays are passed by reference. It means that
+array passed as parameter will be changed when we will modify it inside the function:
 
 {% highlight js %}
 // Initial array will be changed after shuffle
@@ -39,6 +38,8 @@ function mutableShuffle(arr) {
 {% endhighlight %}
 
 #### Shuffle that don't modify a given array:
+
+The function above doesn't modify a given array. It creates, fills and returns a new array:
 
 {% highlight js %}
 // Initial array will NOT be changed after shuffle
@@ -71,3 +72,5 @@ console.log(immutableArr); // will NOT be changed
 {% endhighlight %}
 
 You can try and modify it on [codepen](http://codepen.io/pavel_komiagin/pen/PGGEmK?editors=0011).
+
+<hr/>

@@ -185,3 +185,5 @@ Backbone.sync = function(method, model, options) {
 {% endhighlight %}
 
 The full source code for this plugin you can find on [github](https://github.com/pavelkomiagin/Backbone.cachedFetch).
+
+<hr/>

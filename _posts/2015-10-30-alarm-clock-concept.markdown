@@ -16,3 +16,5 @@ Inspired by <a href="https://dribbble.com/shots/2158902-Sport-App">https://dribb
 
 <p data-height="550" data-theme-id="0" data-slug-hash="EVRZmO" data-default-tab="result" data-user="pavel_komiagin" class='codepen'></p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<hr/>
